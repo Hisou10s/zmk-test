@@ -16,7 +16,7 @@
             bindings = <&none>, <&none>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <500>;
+            tapping-term-ms = <800>;
         };
     };
 
@@ -34,7 +34,7 @@
 &kp GRAVE  &kp Q       &kp W        &kp F             &kp P       &kp B            &kp J                        &kp L       &kp U             &kp Y        &kp SEMI    &kp BSLH
 &kp MINUS  &mt LGUI A  &mt LCTRL R  &mt LEFT_SHIFT S  &mt LALT T  &kp G            &kp M                        &mt RALT N  &mt LEFT_SHIFT E  &mt LCTRL I  &mt RGUI O  &kp SQT
 &kp EXCL   &kp Z       &kp X        &kp C             &kp D       &kp V            &kp K                        &kp H       &kp COMMA         &kp DOT      &kp FSLH    &kp ESC
-                                    &mt CAPS TAB      &mo 0       &mt RET SPACE    &mt BACKSPACE LC(BACKSPACE)  &mo 0       &to 0
+                                    &mt CAPS TAB      &mo 1       &mt RET SPACE    &mt BACKSPACE LC(BACKSPACE)  &mo 2       &to 3
             >;
         };
 
