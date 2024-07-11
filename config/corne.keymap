@@ -22,19 +22,19 @@
             key-positions = <1 0>;
         };
 
-        Escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <34 35>;
+        Layer0 {
+            bindings = <&to 0>;
+            key-positions = <39 41>;
         };
 
         StickyLayer1 {
             bindings = <&sl 1>;
-            key-positions = <38 37>;
+            key-positions = <16 14>;
         };
 
         StickyLayer2 {
             bindings = <&sl 2>;
-            key-positions = <38 36>;
+            key-positions = <17 14>;
         };
     };
 
@@ -62,16 +62,17 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAPDANCE_BEHAVIOR";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>;
+            bindings = <&kp LEFT_SHIFT>, <&none>;
+
             tapping-term-ms = <200>;
         };
 
-        new_behavior: new_behavior {
+        Sticky_behavior: Sticky_behavior {
             compatible = "zmk,behavior-sticky-key";
-            label = "NEW_BEHAVIOR";
+            label = "STICKY_BEHAVIOR";
             bindings = <&none>;
             #binding-cells = <1>;
-            release-after-ms = <1000>;
+            release-after-ms = <2000>;
         };
     };
 
@@ -89,9 +90,9 @@
 
         Raise {
             bindings = <
-&kp DOLLAR      &kp ASTERISK  &kp CARET  &kp HASH  &kp PERCENT  &kp AT_SIGN    &kp F1  &kp F2   &kp F3   &kp F4   &none  &none
-&kp LEFT_ALT    &kp N7        &kp N5     &kp N0    &kp N4       &kp N6         &kp F5  &kp F6   &kp F7   &kp F8   &none  &none
-&kp LEFT_SHIFT  &kp N8        &kp N3     &kp N2    &kp N1       &kp N9         &kp F9  &kp F10  &kp F11  &kp F12  &none  &none
+&kp LEFT_ALT    &kp N8        &kp N3     &kp N2    &kp N1       &kp N9         &kp F1  &kp F2   &kp F3   &kp F4   &none  &none
+&kp LEFT_SHIFT  &kp N7        &kp N5     &kp N0    &kp N4       &kp N6         &kp F5  &kp F6   &kp F7   &kp F8   &none  &none
+&kp DOLLAR      &kp ASTERISK  &kp CARET  &kp HASH  &kp PERCENT  &kp AT_SIGN    &kp F9  &kp F10  &kp F11  &kp F12  &none  &none
                                          &trans    &trans       &trans         &trans  &trans   &trans
             >;
         };
@@ -100,7 +101,7 @@
             bindings = <
 &bt BT_CLR    &none  &kp HOME  &kp UP_ARROW    &kp PAGE_UP      &none         &none   &none   &none   &none   &trans  &trans
 &bt BT_NXT    &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none         &none   &none   &none   &none   &trans  &trans
-&bt BT_SEL 0  &none  &kp END   &kp DELETE      &kp PAGE_DOWN    &kp C_MENU    &none   &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &none  &kp END   &kp DELETE      &kp PAGE_DOWN    &kp K_MENU    &none   &trans  &trans  &trans  &trans  &trans
                                &trans          &trans           &trans        &trans  &trans  &trans
             >;
         };
