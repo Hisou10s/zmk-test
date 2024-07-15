@@ -84,7 +84,7 @@
 &mt LEFT_WIN ESCAPE    &kp Q  &kp W  &kp F      &kp P        &kp B                   &kp J                        &kp L                                   &kp U                &kp Y             &kp SQT                   &mt AMPERSAND GRAVE
 &mt LEFT_ALT CAPSLOCK  &kp A  &kp R  &kp S      &kp T        &kp G                   &kp M                        &kp N                                   &kp E                &kp I             &kp O                     &mt RIGHT_BRACKET LEFT_BRACKET
 &kp RCTRL              &kp Z  &kp X  &kp C      &kp D        &kp V                   &kp K                        &kp H                                   &mt SEMICOLON COMMA  &mt COLON PERIOD  &mt QUESTION EXCLAMATION  &mt SLASH NON_US_BACKSLASH
-                                     &lt 1 TAB  &lt 2 ENTER  &mt LEFT_SHIFT SPACE    &mt BACKSPACE LC(BACKSPACE)  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt EQUAL MINUS
+                                     &lt 2 TAB  &lt 1 ENTER  &mt LEFT_SHIFT SPACE    &mt BACKSPACE LC(BACKSPACE)  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt EQUAL MINUS
             >;
         };
 
