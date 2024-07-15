@@ -29,12 +29,12 @@
 
         StickyLayer1 {
             bindings = <&sl 1>;
-            key-positions = <14 17>;
+            key-positions = <14 16>;
         };
 
         StickyLayer2 {
             bindings = <&sl 2>;
-            key-positions = <14 16>;
+            key-positions = <14 17>;
         };
     };
 
