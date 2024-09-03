@@ -49,6 +49,66 @@
             bindings = <&kt LCTRL>;
             key-positions = <36 37>;
         };
+
+        One {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <0 1>;
+            layers = <3>;
+        };
+
+        Two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <0 2>;
+            layers = <3>;
+        };
+
+        Three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <0 3>;
+            layers = <3>;
+        };
+
+        Four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <0 4>;
+            layers = <3>;
+        };
+
+        Five {
+            bindings = <&kp N5>;
+            key-positions = <0 5>;
+            layers = <3>;
+        };
+
+        FOne {
+            bindings = <&kp F1>;
+            key-positions = <0 13>;
+            layers = <3>;
+        };
+
+        FTwo {
+            bindings = <&kp F2>;
+            key-positions = <0 14>;
+            layers = <3>;
+        };
+
+        FThree {
+            bindings = <&kp F3>;
+            key-positions = <0 15>;
+            layers = <3>;
+        };
+
+        FFour {
+            bindings = <&kp F4>;
+            key-positions = <0 16>;
+            layers = <3>;
+        };
+
+        FFive {
+            bindings = <&kp F5>;
+            key-positions = <0 17>;
+            layers = <3>;
+        };
     };
 
     macros {
